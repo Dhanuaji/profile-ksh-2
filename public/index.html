@@ -1,0 +1,423 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kickout Software House | Home</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		 <!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="/"><img src="images/kickout.png" title="kickout" width="50px" height="50px"/>Kickout</a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#home" class="scroll">Home</a></li>
+								<li><a href="#services" class="scroll">Services</a></li>
+								<li><a href="#port" class="scroll">Portfolio</a></li>
+								<li><a href="#team" class="scroll">Team</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner ---->
+			<div class="banner wow fadeIn" data-wow-delay="0.5s">
+				<div class="container">
+					<div class="banner-info text-center">
+						<h1>Build the web and mobile applications in your wants</h1><br />
+						<span> </span>
+						<p style="color: black;">We are a developer team who works freelancely, and building something that useful!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!---- banner ---->
+			<!--- services --->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h2>Core Services</h2>
+						<span> </span>
+					</div>
+					<!--- services-grids --->
+					<div class="services-grids text-center">
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon1"> </span>
+								<h3><a href="#">Design Applications</a></h3>
+								<p>We can make designs for your application, either it your UI/UX or your work flow design for your application.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon2"> </span>
+								<h3><a href="#">web & mobile development</a></h3>
+								<p>Web & Mobile application are our primary section on development.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon3"> </span>
+								<h3><a href="#">Fullstack Development</a></h3>
+								<p>We are a bunch of programmer or developer who have been works as fullstack developer, so we can handle all the development.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon3"> </span>
+								<h3><a href="#">24/7 Support</a></h3>
+								<p>We provided you with some support to get you keep on track with us, we always keep reaching you.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- services-grids --->
+				</div>
+			</div>
+			<!--- services --->
+			<div class="clearfix"> </div>
+			<!--- Other Expertise ---->
+			<div id="port" class="expertise">
+				<div class="expertice-grids">
+					<div class="col-md-8 expertice-left-grid wow fadeInLeft" data-wow-delay="0.4s">
+						<div class="expertise-head">
+							<h3>Other Expertise</h3>
+							<p>We also have other things that we can do besides what we said above, here take a look. </p>
+						</div>
+						<div class="expertise-left-inner-grids">
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon1"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>Custom setup</h4>
+									<p>We can built or just re-arrange the project for you, just for what you need.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon2"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>API Services</h4>
+									<p>A lot of things that works especially on the internet right now using API, so we can handle that for you.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon3"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>support team</h4>
+									<p>We have support team who always keep us on hand and to get you the information that you need.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon4"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>database management</h4>
+									<p>Storing some number of data can be painfull, so let us do that for you. Even to optimize your data works.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s">
+						
+					</div>
+					<div class="clearfix"> </div> 
+				</div>
+			</div>
+			<!--- Other Expertise ---->
+			<!--- portfolio ---->
+			<div class="portfolio">
+				<div class="portfolio-top">
+					<div class="col-md-8">
+						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+							<h3>Amazing Portfolio</h3>
+							<p>We had develop a few things, even that for personal use or bussiness purposes.</p>
+							<p>You can trace our works in here, we give you chance to look around. So enjoy!</p>
+							<div class="portfolio-top-left-grids">
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon1"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>Put away Your Worries</h5>
+										<p>We have team to make things easier for you, we are fully responsible for what you want. From the beggining until the very end.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon2"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>Support team</h5>
+										<p>We provided you with a team that can support you, so you will not lose track about the things you want. You always can reach us no watter what. </p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon3"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>fully Integrated service</h5>
+										<p>We offer you some benefit with our fully integrated service, from the start until the end development. We have team who can do fullstack development. </p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
+						<div class="portfolio-top-right">
+							
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<!---- portfolio-works ---->
+					<div class="portfolio-works">
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="images/Logo EEY Dasar Putih.png" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Eey.Id Landing Page</h4>
+								<p>We make a landing page for clothing brand, this landing page have purpose to make a trustworthy engagement and closing deals.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="images/R.png" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Simple MERN Stack APP for Demo</h4>
+								<p>We made a simple fullstack web application using MERN stack, using web API, click here to see the
+									<a href="https://mern-newcomer.herokuapp.com/users" style="text-decoration: none"> data API</a>
+									. Click here to see the <a href="https://mern-newcomers.netlify.app/" style="text-decoration: none">web app</a>.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="images/p3.png" title="name" height="420px"/>
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Dirtyless Laundry Dekstop App</h4>
+								<p>A simple dekstop app as system infomation for bussiness process and transaction for the customer, employee & owner it self.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---- portfolio-works ---->
+				</div>
+			</div>
+			<!--- portfolio ---->
+			<!---- about ---->
+			<!---start-about---->
+		<div class="about">
+			<div class="wrap"> 
+				<div class="about-head">
+					<h1>About us</h1>
+					<span> </span>
+				</div>
+				<!---start-about-time-line---->
+				<div class="about-time-line">
+					<li>
+							<div class="cbp_tmicon img1"> </div>
+							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+								<h2>June 2022 Our Beginnings</h2>
+								<p>We are from some friends group in the college who went the same studies. We loving things in development, back there there was a lot to learn until now. At some point we decided to make a team that go straight into bussiness orientation.</p>
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon4 img5"> </div>
+					</li>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+				</div>
+				<!---//End-about-time-line---->
+			<!---- about ---->
+		</div>
+			<!---- team --->
+			<div id="team" class="team-members">
+					<div class="wrap"> 
+						<div class="tm-head">
+							<h3>our team members.</h3>
+							<p>Here our development team members, dont shy to say hello.</p>
+						</div>
+						<div class="tm-head-grids">
+							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
+								<img src="images/dev2.jpg" alt="">
+								<h4>Raymundus Sendy Nugroho</h4>
+								<h5>Customer Support & Project Manager</h5>
+								<ul class="top-social-icons">
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
+								<img src="images/dev1.jpg" alt="">
+								<h4>Danu Pratama</h4>
+								<h5>Coder/Developer</h5>
+								<ul class="top-social-icons">
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s">
+								<img src="images/dev3.jpg" alt="">
+								<h4>Yosia K Driesa</h4>
+								<h5>Coder/Developer</h5>
+								<ul class="top-social-icons">
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s">
+								<img src="images/dev4.jpg" alt="">
+								<h4>Orlando</h4>
+								<h5>Coder/Developer</h5>
+								<ul class="top-social-icons">
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<p class="team-info">Here our a litle information about our team members, feel free to reach us.</p>
+					</div>
+				</div>
+			<!---- team --->
+			<!---- contact --->
+			<div id="contact" class="contact">
+				<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-6">
+						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
+							<h3>Contact Us</h3>
+							<label>Lets give us a "Hello" from you :)</label>
+							<div class="contact-left-grids">
+								<div class="col-md-6">
+									<div class="contact-left-grid">
+										<p><span class="c-mobi"> </span>(+62) 812 3388 5727</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="contact-right-grid">
+										<p><span class="c-msg"> </span><a href="mailto:pratamadhanuaji@gmail.com">@Kickout Management</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
+							<form>
+								<input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
+					 			<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}">
+					 	 		<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+								<input class="wow shake" data-wow-delay="0.3s" type="submit" value="Send Message" />
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--- copy-right ---->
+				<div class="copy-right text-center">
+					<p>Under terms of service @Kickout Software House 2022</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+				<!--- copy-right ---->
+			</div>
+			</div>
+			<!---- contact --->
+		</div>
+	</body>
+</html>
+
